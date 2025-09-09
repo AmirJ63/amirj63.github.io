@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amir Jafarzadeh — Behavioural & Experimental Economics</title>
+  <meta name="description" content="PhD Researcher in Behavioural & Experimental Economics at UEA. Inequality & fairness, coordination, public and experimental economics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#ffffff; --text:#111827; --muted:#6b7280; --link:#2563eb; --card:#f8fafc; --line:#e5e7eb;
+      --maxw:1000px; --radius:16px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:24px}
+    header{display:flex;gap:24px;align-items:center;justify-content:space-between;padding:18px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,255,255,.9);backdrop-filter:saturate(180%) blur(6px);z-index:10}
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand img{width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid var(--line)}
+    .brand h1{font-size:20px;margin:0}
+    .brand p{margin:0;color:var(--muted);font-size:14px}
+    nav{display:flex;gap:14px;flex-wrap:wrap}
+    nav a{padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:#fff}
+    main{display:grid;grid-template-columns:280px 1fr;gap:28px;margin-top:24px}
+    aside{position:sticky;top:96px;align-self:start}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+    h2{margin:0 0 8px 0;font-size:22px}
+    h3{margin:22px 0 8px 0;font-size:18px}
+    .muted{color:var(--muted)}
+    .list{display:flex;flex-direction:column;gap:14px}
+    .pub{padding:14px;border:1px solid var(--line);border-radius:12px;background:#fff}
+    .pub .title{font-weight:600}
+    .pub .authors, .pub .venue{color:var(--muted);font-size:14px}
+    .btn{display:inline-block;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:#fff}
+    footer{margin:48px 0 24px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:14px}
+    .badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+    .badge{padding:4px 8px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:12px}
+    @media (max-width: 860px){main{grid-template-columns:1fr}}
+  </style>
+  <!-- Structured data for richer search snippets. Replace placeholders before publishing. -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Amir Jafarzadeh",
+    "jobTitle":"PhD Researcher in Economics",
+    "affiliation":{"@type":"Organization","name":"University of East Anglia"},
+    "email":"mailto:A.Jafarzadeh@uea.ac.uk",
+    "url":"",
+    "image":"headshot.jpg",
+    "sameAs":["https://scholar.google.com/citations?hl=en&user=A10KLNIAAAAJ"]
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <img src="headshot.jpg" alt="Headshot of Amir [Surname]" onerror="this.style.display='none'" />
+        <div>
+          <h1>Amir Jafarzadeh</h1>
+          <p class="muted">PhD Researcher in Economics · University of East Anglia</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <div class="card">
+          <h2>Contact</h2>
+          <p><strong>Email:</strong> <a href="mailto:A.Jafarzadeh@uea.ac.uk">A.Jafarzadeh@uea.ac.uk</a></p>
+          <p><strong>Office:</strong> School of Economics, UEA</p>
+          <p><strong>Address:</strong> Norwich, UK</p>
+          <div class="badges">
+            <a class="badge" href="https://scholar.google.com/citations?hl=en&user=A10KLNIAAAAJ">Google Scholar</a>
+          </div>
+        </div>
+      </aside>
+
+      <section>
+        <section id="home" class="card">
+          <h2>About</h2>
+          <p>I am a PhD Researcher in Behavioural & Experimental Economics at the University of East Anglia. My work studies inequality and fairness, coordination, and decision‑making under uncertainty, combining lab experiments with simple game‑theoretic frameworks. I have research assistant experience in open‑science compliance and experimental lab operations, and I co‑organise workshops in behavioural game theory.</p>
+          <p class="muted">Research interests: behavioural & experimental economics; inequality & fairness; game theory; decision‑making under uncertainty; public economics; environmental economics; behavioural economics of technology & AI.</p>
+        </section>
+
+        <section id="research" class="card">
+          <h2>Research</h2>
+          <h3>Working Papers (Abstracts)</h3>
+          <div class="list" id="working-papers">
+            <div class="pub">
+              <div class="title">Is Inequality Acceptable? An Experiment on Procedural Fairness</div>
+              <div class="authors">Amir Jafarzadeh, Robert Sugden, and Sheheryar Banuri</div>
+              <p class="muted">This paper investigates whether individuals’ redistribution preferences are influenced by initial inequalities resulting from inequalities of opportunity, a key concept in debates on fairness. Drawing on the distinction between procedural fairness (focused on equal access to opportunities) and ex‑post fairness (focused on the fairness of outcomes), we design a novel experiment to test whether individuals’ preferences for redistribution change when opportunities are equal or unequal. We conducted the experiment within a new game‑theoretical framework based on Sugden &amp; Wang (2020), in which participants engage in a card game with varying opportunities and then decide how much to redistribute in a dictator game. The results show that participants’ redistribution preferences remain unchanged despite manipulation of equality of opportunity, suggesting that they prioritise outcomes over procedural fairness. This finding aligns with some research in the literature, arguing that most individuals focus more on outcomes than fairness in process. By exploring the relationship between procedural fairness and redistribution preferences, this paper contributes to the ongoing debate on the role of equality of opportunity in shaping perceptions of fairness in economic contexts.</p>
+            </div>
+            <div class="pub">
+              <div class="title">Strategic Fairness and the Sources of Inequality</div>
+              <div class="authors">Amir Jafarzadeh, Robert Sugden, and Sheheryar Banuri</div>
+              <p class="muted">This paper investigates the influence of strategic choice and strategic luck on individuals’ preferences for redistribution, extending the existing literature on inequality and fairness in experimental economics. While much of the previous research has examined non‑strategic settings where individuals’ decisions are independent and luck is typically conceptualised as a lottery, this study introduces a strategic environment where incomes are shaped by both individual choices and the decisions of others. Furthermore, luck is redefined as a factor determined by others’ choices rather than a random lottery. Each participant participates in two blocks: Block 1 introduces a novel strategic environment based on a pure coordination game (PC), followed by redistribution over 30 rounds; Block 2 employs a standardised adaptation of the experiment from Cappelen et al. (2013) to measure preferences under non‑strategic choice and luck. The findings reveal that factors such as initial income distributions exert more significant effects on individuals’ preferences for redistribution compared to the impact of strategic and non‑strategic choice and strategic and non‑strategic luck.</p>
+            </div>
+            <div class="pub">
+              <div class="title">An Experimental Investigation of Players' Choice Strategies in Pure Coordination Games</div>
+              <div class="authors">Amir Jafarzadeh, Robert Sugden, and Sheheryar Banuri</div>
+              <div class="venue muted">Writing up.</div>
+              <p class="muted">A key puzzle in coordination‑game literature is understanding how decision‑makers achieve success in pure coordination games. In standard game‑theoretical models, strategies do not have labels. Experimental research shows that in pure coordination games with labels, players coordinate significantly better than random choice. This improved performance arises because some labels are chosen more frequently than others, which is unexplained by game theory. This paper investigates what makes labels more salient. We conducted an experiment where participants played 30 rounds of pure coordination games using labels from 10 categories (e.g., Actors and Fruits). These labels were selected based on high rankings on specialised websites. Coordination success exceeded random chance. While label frequencies on websites and in Google searches showed no significant effects, label frequency in English‑language books significantly influenced success.</p>
+            </div>
+          </div>
+          <h3>Work in Progress</h3>
+          <ul>
+            <li>Cooperation and Inequality: An Experimental Approach (with Gabriele Camera) — finalising design.</li>
+            <li>Coordination in MAD Chairs (with Stefan Penczynski &amp; Chris Santos‑Lang) — pilots on Prolific.</li>
+          </ul>
+          <h3>Grants &amp; Awards</h3>
+          <ul>
+            <li>2021–2024 — Fully funded PhD Scholarship, Faculty of Social Sciences, UEA (£50,100).</li>
+            <li>2022–2024 — Research funding, CBESS, UEA (£6,300).</li>
+          </ul>
+        </section>
+
+        <section id="publications" class="card">
+          <h2>Publications</h2>
+          <div class="list" id="pub-list">
+            <div class="pub">
+              <div class="title">Possibility of potential coalitions in gas exports from the Southern Corridor to Europe: a cooperative game theory framework</div>
+              <div class="authors">A. Jafarzadeh, A. Shakeri, A. Ghasemi, &amp; A. Javan</div>
+              <div class="venue">OPEC Energy Review, 45(2), 217–239 (2021)</div>
+            </div>
+            <div class="pub">
+              <div class="title">Iran’s role in Caspian Basin gas transfer: a cooperative game theory approach</div>
+              <div class="authors">S. Baghdadi, S. Moshiri, &amp; A. Jafarzadeh</div>
+              <div class="venue">Journal of Energy Planning &amp; Policy Research, 7(2) (2021)</div>
+            </div>
+            <div class="pub">
+              <div class="title">Bargaining Power of Gas Export Options from the Southern Corridor to Europe</div>
+              <div class="authors">A. Jafarzadeh, G. Abdoli, &amp; A. Javan</div>
+              <div class="venue">Iranian Journal of Economic Research, 25(84), 1–34 (2020)</div>
+            </div>
+            <div class="pub">
+              <div class="title">Iran–Qatar cooperation in South Pars (North Dome) gas field: a game theory framework</div>
+              <div class="authors">E. Bayati, B. Safavi, &amp; A. Jafarzadeh</div>
+              <div class="venue">Economic Modelling, 13(45), 47–72 (2019)</div>
+            </div>
+            <div class="pub">
+              <div class="title">Coalition among Iran, Azerbaijan &amp; Turkmenistan to export gas to Europe: a game‑theoretic framework</div>
+              <div class="authors">A. Jafarzadeh, A. Shakeri, F. Momeni, &amp; G. Abdoli</div>
+              <div class="venue">Iranian Journal of Economic Research, 19(61), 1–29 (2015)</div>
+            </div>
+            <div class="pub">
+              <div class="title">Cooperation among Caspian gas exporters with environmental requirements: a game‑theoretic framework</div>
+              <div class="authors">A. Jafarzadeh, A. Shakeri, F. Momeni, &amp; G. Abdoli</div>
+              <div class="venue">Economics Research, 14(55), 1–40 (2014)</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="teaching" class="card">
+          <h2>Teaching</h2>
+          <ul>
+            <li><strong>Associate Tutor</strong> — University of East Anglia, 2022–2025. <span class="muted">Undergraduate &amp; MSc support: Microeconomics, Macroeconomics, Econometrics (Econometric Methods; Financial Econometrics), Economics &amp; Business, Responsible Business Regulation.</span></li>
+            <li><strong>Part‑time Lecturer</strong> — Allameh Tabataba’i University, 2010–2021. <span class="muted">Courses: Game Theory; Advanced Microeconomics; Microeconomics; Macroeconomics; Introduction to Economics; International Trade; Iranian Economy.</span></li>
+            <li><strong>Master Thesis Advisor</strong> — Allameh Tabataba’i University, 2015–2019. <span class="muted">Supervised theses on cooperative game‑theoretic analysis of Caspian Basin hydrocarbons strategy and Iran–Qatar cooperation in South Pars gas field.</span></li>
+          </ul>
+        </section>
+
+        <section id="cv" class="card">
+          <h2>Curriculum Vitae</h2>
+          <p>
+            <a class="btn" href="CV_Amir_JAfarzadeh.pdf" download>Download CV (PDF)</a>
+            <span class="muted"> · Last updated: September 2025</span>
+          </p>
+        </section>
+
+        <section id="contact" class="card">
+          <h2>Media & Contact</h2>
+          <p>For collaborations, talks, or media inquiries, please email <a href="mailto:[email]">[email]</a>.</p>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Amir [Surname]. All rights reserved. · Built with a lightweight, single‑file template.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
